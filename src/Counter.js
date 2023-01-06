@@ -5,8 +5,8 @@ const Counter = (props) => {
     return (
       <div className="row" style={{ backgroundImage: 'url("img/background.jpg")'}}>
         <div className="col-md-12">
-          <h2 className="text-center" style={{color: "#ffffff"}}>FALTAN</h2>
-          <h3 className="text-center" style={{color: "#ffffff"}}>
+          <h2 className="text-center" style={{color: "#000"}}>FALTAN</h2>
+          <h3 className="text-center" style={{color: "#000"}}>
             {`${props.days} ${props.hours} ${props.minutes} ${props.seconds}`}
           </h3>
         </div>
