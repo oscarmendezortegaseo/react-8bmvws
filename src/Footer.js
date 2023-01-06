@@ -6,7 +6,7 @@ const Footer = () => {
     return (
         <div className="row" style={{background: "#000"}}>
             <div className="col-md-4">
-              <p style={{ color: "#ffffff", fontSize: "10px"}}>
+              <p style={{ color: "#ffffff", fontSize: "10px",}}>
                 Aviso de Privacidad / Contacto
               </p>
             </div>
