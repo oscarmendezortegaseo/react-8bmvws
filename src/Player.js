@@ -3,7 +3,7 @@ import PropsType from "prop-types";
 
 const Player = (props) => {
     return (
-        <div className="row" style={{ backgroundImage: 'url("img/background.jpg")'}}>
+        <div className="row" >
         <div className="col-md-12">
 
         <div id="video" className="text-center">

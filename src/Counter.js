@@ -3,10 +3,13 @@ import PropsType from "prop-types";
 
 const Counter = (props) => {
     return (
-      <div className="row" style={{ backgroundImage: 'url("img/background.jpg")'}}>
+      <div className="row">
         <div className="col-md-12">
-          <h2 className="text-center" style={{color: "#000"}}><b>FALTAN</b></h2>
-          <h3 className="text-center" style={{color: "#000"}}>
+          <h2 className="text-center" style={{color: "#FFF"}}><b>FALTAN</b></h2>
+          <h3 className="text-center" style={{color: "#FFF"}}>
+            <span className="">
+              {props.days}
+            </span>
            {`${props.days}  ${props.hours} ${props.minutes} ${props.seconds}`}
           </h3>
         </div>
