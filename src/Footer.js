@@ -10,7 +10,7 @@ const Footer = () => {
                 Aviso de Privacidad / Contacto
               </p>
             </div>
-            <Logo key="LogoFooterSochi" class="col-md-4" alt="Logo Header sochi" image="public/img/logo-sochi.png"/>
+            <Logo key="LogoFooterSochi" class="col-md-4" alt="Logo Header sochi" image="img/logo-sochi.png"/>
             <div className="col-md-4">
               <Network key="Networkfacebook-f" color="#3b5998" network="facebook-f" link="#!" />
               <Network key="Networktwitter" color="#55acee" network="twitter" link="#!" />
