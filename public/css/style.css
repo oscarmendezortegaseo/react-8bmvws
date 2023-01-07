@@ -33,7 +33,7 @@ button:hover .overlay {
 	  align-items: center;
 	  text-align: center;
       margin:0px auto;
-      padding:1%;
+      padding:24%;
   }
 
 
@@ -120,8 +120,4 @@ button:hover .overlay {
     margin-bottom: 20px;
 }
 
-.fondo {
-    background: url('https://cdn.jsdelivr.net/gh/oscarmendezortegaseo/react-8bmvws@main/public/img/background.jpg');
-   
-}
 

@@ -3,7 +3,7 @@ import PropsType from "prop-types";
 
 const Counter = (props) => {
     return (
-      <div className="container fondo">
+      <div className="container">
         <div className="row separador">
           <div className="col-md-12">
           <h2 className="text-center" style={{color: "#FFF"}}><b>FALTAN</b></h2>
