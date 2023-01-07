@@ -90,8 +90,8 @@ button:hover .overlay {
 .video-responsive iframe{
     left:0;
     top:0;
-    height:315;
-    width:560;
+    height:100%;
+    width:100%;
    
 }
 
