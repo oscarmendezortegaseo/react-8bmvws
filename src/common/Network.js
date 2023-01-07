@@ -4,7 +4,7 @@ import PropsType from "prop-types";
 const Network = (props) => {
     return (
         <a
-            className="btn btn-primary"
+            className="btn btn-primary social"
             style={{
                 backgroundColor: props.color
             }}
