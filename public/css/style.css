@@ -89,10 +89,10 @@ button:hover .overlay {
     height:0;
 }
 .video-responsive iframe{
-    left:19%;
+    left:0;
     top:0;
-    height:315;
-    width:560;
+    height:100%;
+    width:100%;
     position:absolute;
 }
 

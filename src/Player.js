@@ -5,7 +5,7 @@ const Player = (props) => {
     return (
        <div className="container">
         <div className="row">
-        <div className="col-md-12">
+        <div className="col-md-6" style={{margin: "auto"}}>
 
         <div className="text-center video-responsive">
             <iframe
