@@ -54,35 +54,33 @@ button:hover .overlay {
 
 
 .countdown {
-    border: 1px #FFF solid;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    border-radius: 50%;
+    border: 3px #FFF solid;
     width: 80px;
     height: 80px;
- 
+    border-radius: 40px;
+    display: inline-block;
+    margin-left: 5px;
+    justify-content: center;
+	align-items: center;
+	text-align: center;
+    padding:1%;
     
    
 }
 
 .countdown p {
-    text-align: center;
+  
     font-size: 20px;
     color: #FFF;
     font-weight: 900;   
 }
 
-.countdown span {
-    text-align: center;
-    font-size: 12px;
-    color: #FFF;
-    font-weight: 900;   
-}
 .video-responsive {
     overflow:hidden;
     padding-bottom:370px; 
     position:relative;
     height:0;
+    margin-top: 27px;
 }
 .video-responsive iframe{
     left:0;
@@ -112,3 +110,8 @@ button:hover .overlay {
     font-family: 'Exo';
 
 }
+.separador {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+

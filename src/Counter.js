@@ -4,44 +4,57 @@ import PropsType from "prop-types";
 const Counter = (props) => {
     return (
       <div className="container">
-        <div className="row">
+        <div className="row separador">
           <div className="col-md-12">
           <h2 className="text-center" style={{color: "#FFF"}}><b>FALTAN</b></h2>
           </div>
-          </div>
-          <div className="row">
-            <div className="col-md-3 col-3">
-              <div className="countdown">
-                <p>{props.days}</p>
-                <span>Días</span>
-              </div>
-            </div>
-
-            <div className="col-md-3 col-3">
-              <div className="countdown">
-                <p>{props.hours}</p>
-                <span>hrs</span>
-               
-              </div>
-            </div>
-
-            <div className="col-md-3 col-3">
-              <div className="countdown">
-                <p>{props.minutes}</p>
-                <span>min</span>
-              </div>
-            </div>
-
-            <div className="col-md-3 col-3">
-              <div className="countdown">
-                <p>{props.seconds}</p>
-                <span>seg</span>
-              </div>
-            </div>
+        </div>
 
 
+        <div className="row text-center separador">
+    <div className="col-md-12">
+  
+        <div className="countdown">
+            <p>
+              {props.days}<br/>
+              DÍAS
+            </p>
            
-            </div>
+           
+            
+        </div>
+       
+
+
+        <div className="countdown">
+            <p>
+              {props.hours}<br/>
+            HRS
+            </p>
+              
+        </div>
+
+
+        <div className="countdown">
+            <p>
+              {props.minutes}<br/>
+              MIN
+            </p>
+            
+        </div>
+
+
+
+        <div className="countdown">
+            <p>{props.seconds}
+            <br/>
+            SEG
+            </p>
+           
+        </div>
+    </div>
+</div>
+    
       </div>
       
     );
