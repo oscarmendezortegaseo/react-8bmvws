@@ -3,29 +3,47 @@ import PropsType from "prop-types";
 
 const Counter = (props) => {
     return (
-      <div className="row">
-        <div className="col-md-12">
+      <div className="container">
+        <div className="row">
+          <div className="col-md-12">
           <h2 className="text-center" style={{color: "#FFF"}}><b>FALTAN</b></h2>
-         <div className="text-center">
-            <div className="countdown">
-              {props.days}
-              <p>Días</p>
+          </div>
+          </div>
+          <div className="row">
+            <div className="col-md-3 col-3">
+              <div className="countdown">
+                <p>{props.days}</p>
+                <span>Días</span>
+              </div>
             </div>
-            <div className="countdown">
-              {props.hours}
-              <p>Hrs</p>
+
+            <div className="col-md-3 col-3">
+              <div className="countdown">
+                <p>{props.hours}</p>
+                <span>hrs</span>
+               
+              </div>
             </div>
-            <div className="countdown">
-              {props.minutes}
-              <p>Min</p>
+
+            <div className="col-md-3 col-3">
+              <div className="countdown">
+                <p>{props.minutes}</p>
+                <span>min</span>
+              </div>
             </div>
-            <div className="countdown">
-             {props.seconds}
-             <p>Seg</p>
+
+            <div className="col-md-3 col-3">
+              <div className="countdown">
+                <p>{props.seconds}</p>
+                <span>seg</span>
+              </div>
             </div>
+
+
+           
             </div>
-        </div>
       </div>
+      
     );
 };
 

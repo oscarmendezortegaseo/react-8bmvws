@@ -4,7 +4,9 @@ import Network from "./common/Network";
 
 const Footer = () => {
     return (
-        <div className="row footersochi text-center">
+        <div className="footersochi text-center">
+          <div className="container">
+          <div className="row">
             <div className="col-md-4 col-4">
               <p style={{ color: "#ffffff", fontSize: "10px",}}>
                 Aviso de Privacidad / Contacto
@@ -19,6 +21,8 @@ const Footer = () => {
               <Network key="Networktwitter" color="#55acee" network="twitter" link="#!" />
               <Network key="Networkgoogle" color="#dd4b39" network="google" link="#!" />
               <Network key="Networkinstagram" color="#ac2bac" network="instagram" link="#!" />
+            </div>
+            </div>
             </div>
         </div>
     )

@@ -1,17 +1,23 @@
 button{
     background-color: transparent;
     border: 0;
-    cursor: pointer;
+    cursor:pointer;
+    
 }
+
+button:hover .overlay {
+    opacity: 1;
+
+  }
 
 .overlay {
     position: absolute;
     top: 0;
-    bottom: 0;
-    left: 20%;
+    left: 18%;
     right: 0;
-    height:200px;
-    width: 200px;
+    bottom: 0;
+    height:100px;
+    width: 100px;
     opacity: 0;
     transition: .5s ease;
     background-color: #008CBA;
@@ -20,9 +26,11 @@ button{
      border-radius: 50%;
   }
 
-  button:hover .overlay {
-    opacity: 1;
-  }
+
+
+
+  
+
 
 .headersochi {
 
@@ -36,7 +44,6 @@ button{
     background: #000;
     left: 0;
     bottom: 0;
-    width: 100%;
     padding: 10px;
 }
 
@@ -45,27 +52,32 @@ button{
     padding: 15px;;
 }
 
-.control {
-    width: 900px;
-    margin: auto;
-}
 
 .countdown {
-    display: inline-block;
-  text-transform: uppercase;
-    font-size: 30px;
-    color: #FFF;
-    font-weight: 700;
-    padding: 5px; 
+    border: 1px #FFF solid;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+ 
+    
+   
 }
 
 .countdown p {
-    
-    font-size: 12px;
+    text-align: center;
+    font-size: 20px;
     color: #FFF;
-    font-weight: 500;   
+    font-weight: 900;   
 }
 
+.countdown span {
+    text-align: center;
+    font-size: 12px;
+    color: #FFF;
+    font-weight: 900;   
+}
 .video-responsive {
     overflow:hidden;
     padding-bottom:370px; 
@@ -80,12 +92,23 @@ button{
    
 }
 
-.botonhover {
-    width:200px;
+.control {
+    background: #232323;
+    padding: 50px 0 50px 0;
+    border-bottom: 3px solid #353535;
+    
 }
+
 
 .social {
     margin-left: 5px;
     width: 25px;
     height: 25px;
+}
+
+.titulovideo {
+    color:#FFF;
+    font-size: 10px;
+    font-family: 'Exo';
+
 }

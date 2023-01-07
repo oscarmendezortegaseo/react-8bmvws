@@ -3,10 +3,9 @@ import PropsType from "prop-types";
 const Button = (props) => {
     return (
         <button className={props.class} onClick={() => {props.actionButton(props.video)}}>
-            <img alt={props.alt} src={`${props.image}`} className="botonhover" />
-            <div className="overlay">
-            <div >Texto</div>
-            </div>
+        <img alt={props.alt} src={`${props.image}`} style={{width: "168px"}}  />
+        <p  className="titulovideo">{props.alt}</p>
+         
         </button>
     );
 };
