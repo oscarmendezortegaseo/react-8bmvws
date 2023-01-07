@@ -60,9 +60,9 @@ button:hover .overlay {
 
 .countdown {
     border: 3px #FFF solid;
-    width: 80px;
-    height: 80px;
-    border-radius: 40px;
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
     display: inline-block;
     margin-left: 5px;
     justify-content: center;
@@ -75,7 +75,7 @@ button:hover .overlay {
 
 .countdown p {
   
-    font-size: 20px;
+    font-size: 18px;
     color: #FFF;
     font-weight: 900;   
 }
