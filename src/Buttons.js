@@ -13,9 +13,9 @@ const Buttons = (props) => {
               
                     <Button class="col-md-3 col-6" alt="TEAM LATAM" image="https://cdn.jsdelivr.net/gh/oscarmendezortegaseo/react-8bmvws@main/public/img/team-latam.png" actionButton={props.changeVideo} video= {{title: "sofia", video: "peuVFBTt47o"}} />
                    
-                    <Button class="col-md-3 col-6" alt="TRAVEL MEETS FASHION" image="https://cdn.jsdelivr.net/gh/oscarmendezortegaseo/react-8bmvws@main/public/img/travel-meets-fashion.png" actionButton={props.changeVideo} video= {{title: "mike el perro", video: "MUSdiImX2M0"}} />
-                    <Button class="col-md-3 col-6" alt="VELOCIDAD Y RIESGO" image="https://cdn.jsdelivr.net/gh/oscarmendezortegaseo/react-8bmvws@main/public/img/velocidad-riesgo.png" actionButton={props.changeVideo} video= {{title: "mike fusion", video: "6Yd_jtz94DA"}} />
-                    <Button class="col-md-3 col-6" alt="EXPERIENCIA MULTIMEDIA" image="https://cdn.jsdelivr.net/gh/oscarmendezortegaseo/react-8bmvws@main/public/img/experiencia.png" actionButton={props.changeVideo} video= {{title: "osito dormilon", video: "MZef_8w7YkE"}} />
+                    <Button class="col-md-3 col-6" alt="TRAVEL MEETS FASHION" image="https://cdn.jsdelivr.net/gh/oscarmendezortegaseo/react-8bmvws@main/public/img/travel-meets-fashion.png" actionButton={props.changeVideo} video= {{title: "Leiva", video: "xjY4WT7122Q"}} />
+                    <Button class="col-md-3 col-6" alt="VELOCIDAD Y RIESGO" image="https://cdn.jsdelivr.net/gh/oscarmendezortegaseo/react-8bmvws@main/public/img/velocidad-riesgo.png" actionButton={props.changeVideo} video= {{title: "Sidecars", video: "6Yd_jtz94DA"}} />
+                    <Button class="col-md-3 col-6" alt="EXPERIENCIA MULTIMEDIA" image="https://cdn.jsdelivr.net/gh/oscarmendezortegaseo/react-8bmvws@main/public/img/experiencia.png" actionButton={props.changeVideo} video= {{title: "Los Rumberos", video: "bWstdDuh1ic"}} />
                 
             </div>
         </div>
