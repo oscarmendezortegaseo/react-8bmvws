@@ -13,6 +13,10 @@ button:active .overlay {
     opacity: 1;
 }
 
+button:hover .overlay {
+    opacity: 1;
+}
+
 .overlay {
     
     transition: .5s ease;
