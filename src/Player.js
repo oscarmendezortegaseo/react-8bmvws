@@ -6,7 +6,7 @@ const Player = (props) => {
         <div className="row">
         <div className="col-md-12">
 
-        <div id="video" className="text-center">
+        <div id="video" className="text-center video-responsive">
             <iframe
                 width="560"
                 height="315"

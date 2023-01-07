@@ -6,12 +6,24 @@ const Counter = (props) => {
       <div className="row">
         <div className="col-md-12">
           <h2 className="text-center" style={{color: "#FFF"}}><b>FALTAN</b></h2>
-          <h3 className="text-center" style={{color: "#FFF"}}>
-            <span className="">
+         <div className="text-center">
+            <div className="countdown">
               {props.days}
-            </span>
-           {`${props.days}  ${props.hours} ${props.minutes} ${props.seconds}`}
-          </h3>
+              <p>Días</p>
+            </div>
+            <div className="countdown">
+              {props.hours}
+              <p>Hrs</p>
+            </div>
+            <div className="countdown">
+              {props.minutes}
+              <p>Min</p>
+            </div>
+            <div className="countdown">
+             {props.seconds}
+             <p>Seg</p>
+            </div>
+            </div>
         </div>
       </div>
     );

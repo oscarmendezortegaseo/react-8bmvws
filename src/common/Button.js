@@ -3,7 +3,7 @@ import PropsType from "prop-types";
 const Button = (props) => {
     return (
         <button className={props.class} onClick={() => {props.actionButton(props.video)}}>
-            <img alt={props.alt} src={`img${props.image}`} />
+            <img alt={props.alt} src={`${props.image}`} />
         </button>
     );
 };
