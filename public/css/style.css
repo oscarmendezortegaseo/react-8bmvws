@@ -5,7 +5,7 @@ button{
     
 }
 
-button:hover .overlay {
+button:focus .overlay {
     opacity: 1;
 }
 
@@ -43,6 +43,10 @@ button:hover .overlay {
     padding: 15px;
     margin-bottom: 15px;
     border-bottom: solid 5px #e72108;
+    left: 0;
+    top: 0;
+    position: sticky;
+    z-index: 100;
 }
 
 .footersochi {
