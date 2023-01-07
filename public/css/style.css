@@ -120,9 +120,3 @@ button:hover .overlay {
     margin-bottom: 20px;
 }
 
-.fondo {
-    background-image: url("https://cdn.jsdelivr.net/gh/oscarmendezortegaseo/react-8bmvws@main/public/img/background.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
