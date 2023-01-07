@@ -90,8 +90,8 @@ button:hover .overlay {
 .video-responsive iframe{
     left:0;
     top:0;
-    height:315px;
-    width:560px;
+    height:315;
+    width:560;
    
 }
 
@@ -118,5 +118,10 @@ button:hover .overlay {
 .separador {
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+.fondo {
+    background: url('https://cdn.jsdelivr.net/gh/oscarmendezortegaseo/react-8bmvws@main/public/img/background.jpg');
+   
 }
 
