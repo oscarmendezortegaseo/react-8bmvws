@@ -6,7 +6,7 @@ import Button from "./common/Button";
 const Buttons = (props) => {
     return (
         <div className="row control" >
-            <div className="col-md-6" style={{margin: "auto"}}>
+            <div className="col-md-8" style={{margin: "auto"}}>
                 <h3 className="text-center subtitulo">
                     CLARO SPORTS EN SOCHI 2014
                 </h3>

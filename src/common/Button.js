@@ -3,7 +3,7 @@ import PropsType from "prop-types";
 const Button = (props) => {
     return (
         <button className={props.class} onClick={() => {props.actionButton(props.video)}}>
-        <img alt={props.alt} src={`${props.image}`} style={{width: "160px"}}  />
+        <img alt={props.alt} src={`${props.image}`} style={{width: "100%"}}  />
         <div className="overlay">
             <p>Los Deportistas latinoamericanos que participan en Sochi 2014.</p>
         </div>
