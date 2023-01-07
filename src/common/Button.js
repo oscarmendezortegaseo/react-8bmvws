@@ -4,9 +4,9 @@ const Button = (props) => {
     return (
         <button className={props.class} onClick={() => {props.actionButton(props.video)}}>
             <img alt={props.alt} src={`${props.image}`} className="botonhover" />
-            <div class="overlay">
-<div class="text">Hello World</div>
-</div>
+            <div className="overlay">
+            <div >Texto</div>
+            </div>
         </button>
     );
 };
