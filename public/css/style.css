@@ -9,6 +9,10 @@ button:focus .overlay {
     opacity: 1;
 }
 
+button:active .overlay {
+    opacity: 1;
+}
+
 .overlay {
     
     transition: .5s ease;
