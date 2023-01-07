@@ -7,29 +7,34 @@ button{
 
 button:hover .overlay {
     opacity: 1;
-
-  }
+}
 
 .overlay {
-    position: absolute;
-    top: 0;
-    left: 18%;
-    right: 0;
-    bottom: 0;
-    height:100px;
-    width: 100px;
-    opacity: 0;
+    
     transition: .5s ease;
-    background-color: #008CBA;
+    background-color: #e82100;
+    position: absolute;
+    top: 5px;
+    left: 21px;
+    height:158px;
+    width: 158px;
+    opacity: 0;
     -moz-border-radius: 50%;
      -webkit-border-radius: 50%;
      border-radius: 50%;
+     
   }
 
-
-
-
-  
+  .overlay p {
+      color: #FFFFFF;
+      font-family: 'Exo', serif;
+      font-size: 10px;
+      justify-content: center;
+	  align-items: center;
+	  text-align: center;
+      margin:0px auto;
+      padding:24%;
+  }
 
 
 .headersochi {
@@ -37,7 +42,7 @@ button:hover .overlay {
     background: #000;
     padding: 15px;
     margin-bottom: 15px;
-    border-bottom: solid 5px rgb(156, 8, 8);
+    border-bottom: solid 5px #e72108;
 }
 
 .footersochi {

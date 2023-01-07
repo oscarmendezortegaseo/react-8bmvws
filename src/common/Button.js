@@ -4,6 +4,9 @@ const Button = (props) => {
     return (
         <button className={props.class} onClick={() => {props.actionButton(props.video)}}>
         <img alt={props.alt} src={`${props.image}`} style={{width: "168px"}}  />
+        <div className="overlay">
+            <p>Los Deportistas latinoamericanos que participan en Sochi 2014.</p>
+        </div>
         <p  className="titulovideo">{props.alt}</p>
          
         </button>
