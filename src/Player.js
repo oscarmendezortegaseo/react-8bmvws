@@ -3,7 +3,7 @@ import PropsType from "prop-types";
 
 const Player = (props) => {
     return (
-        <div className="container">
+       
         <div className="row">
         <div className="col-md-12">
 
@@ -17,7 +17,7 @@ const Player = (props) => {
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; autoplay"
                 allowFullScreen
             />
-      </div></div></div></div>
+      </div></div></div>
     );
 };
 
