@@ -36,8 +36,10 @@ const App = (props) => {
   return (
     <>
       <Header key="Header" />
+     
       <Counter key="Counter" {...counter} />
       <Player key="Player" {...video} />
+  
       <Buttons key="Botonera" changeVideo={setVideo} />
       <Footer key="Footer" />
     </>

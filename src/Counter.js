@@ -11,8 +11,8 @@ const Counter = (props) => {
         </div>
 
 
-        <div className="row text-center separador">
-    <div className="col-md-12">
+      <div className="row text-center separador">
+      <div className="col-md-12">
   
         <div className="countdown">
             <p>
@@ -52,7 +52,7 @@ const Counter = (props) => {
             </p>
            
         </div>
-    </div>
+     </div>
 </div>
     
       </div>
